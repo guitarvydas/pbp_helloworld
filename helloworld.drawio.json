@@ -1,0 +1,84 @@
+[
+  {
+    "name": "main",
+    "children": [
+      {
+        "name": ":World",
+        "id": 4
+      },
+      {
+        "name": ":Hello",
+        "id": 7
+      },
+      {
+        "name": "1→2",
+        "id": 10
+      }
+    ],
+    "connections": [
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":World",
+          "id": 4
+        }
+      },
+      {
+        "dir": 0,
+        "source_port": "",
+        "target_port": "",
+        "target": {
+          "name": ":Hello",
+          "id": 7
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "1",
+        "source": {
+          "name": ":Hello",
+          "id": 7
+        },
+        "target": {
+          "name": "1→2",
+          "id": 10
+        }
+      },
+      {
+        "dir": 1,
+        "source_port": "",
+        "target_port": "2",
+        "source": {
+          "name": ":World",
+          "id": 4
+        },
+        "target": {
+          "name": "1→2",
+          "id": 10
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "1",
+        "target_port": "",
+        "source": {
+          "name": "1→2",
+          "id": 10
+        }
+      },
+      {
+        "dir": 2,
+        "source_port": "2",
+        "target_port": "",
+        "source": {
+          "name": "1→2",
+          "id": 10
+        }
+      }
+    ],
+    "file": "helloworld.drawio"
+  }
+]

@@ -1,4 +1,4 @@
-NAME=???
+NAME=helloworld
 all:
 	node ./pbp/das/das2json.mjs $(NAME).drawio
 	python3 main.py . 'initial arg text here' main $(NAME).drawio.json
