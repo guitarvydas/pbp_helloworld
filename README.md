@@ -23,3 +23,14 @@ A 3rd Part to guarantee ordering of mevents.
 - `make init`
 - open draw.io (see above to download and install) and name the drawing `helloworld`
 - change name of tab to `main` (arbitrary name, but must correspond with argv 3 of python line in Makefile)
+
+# UTF-8
+Some of the Part names contain Unicode. 
+
+You may need to enable Unicode before running `make` using this version of PBP.
+
+In Linux/Mac:
+`export PYTHONUTF8=1`
+
+In Windows:
+`set PYTHONUTF8=1`
