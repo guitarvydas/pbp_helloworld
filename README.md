@@ -9,6 +9,8 @@ This looks very simple, but contains concurrency and parallelism and a way to re
 A 3rd Part to guarantee ordering of mevents.
 
 # Usage
+clone the [repo](https://github.com/guitarvydas/pbp_helloworld) and cd into the new directory
+`make init`
 `make`
 
 View the source code by opening `helloworld.drawio` in the [drawio](https://www.drawio.com) editor.
@@ -23,7 +25,8 @@ If you'd like to build a PBP project from scratch, I recommend using the pbp-kit
 - https://www.drawio.com Draw.io diagram editor
 
 ## Video
-This video shows how to build this version of hello world
+This video shows how to build this version of hello world from first principles. It begins with drawing a sequential pipeline, then moves on to parallelizing it, then inserting a `1→2` part to specify order. Note that, traditional programming languages hard-wire order into code (top down, left to right), PBP lifts ordering to where a programmer/artchitect can deal with it explicitly. In this simple example, this makes it look like programming this way is "more difficult", but, it opens the door up to other kinds of programming solutions that are not (easily) available with traditional programming languages. The power of allowing programmers to specify order becomes apparent only in larger solutions.
+
 https://www.youtube.com/watch?v=EFTzFA82YRc&list=PLHh2_dCKBPjbBN2R8xwBiS4nHlo5iQjqS&index=1
 
 ## Steps
@@ -50,7 +53,9 @@ In Windows:
 ![API](./api.md)
 
 # See Also
-- hello world using Python
-- hello world using node.js
-- hello world using Common Lisp
-- LLM 5 Whys project
+- [hello world from first principles](https://github.com/guitarvydas/pbp_helloworld) <-- the same as this repo that you are currently looking at
+- [hello world using Python](https://github.com/guitarvydas/pbp_helloworld_py)
+- [hello world using node.js](https://github.com/guitarvydas/pbp_helloworld_nodejs)
+- [hello world using Common Lisp](https://github.com/guitarvydas/pbp_helloworld_lisp)
+- [LLM as a PBP Part (5 Whys project)](https://github.com/guitarvydas/pbp-llm)
+- the [PBP kernel](https://github.com/guitarvydas/pbp-dev) itself (advanced used of the PBP technique) 
