@@ -2,7 +2,7 @@
 
 This looks very simple, but contains concurrency and parallelism and a way to reason about mevent (message-event) ordering.
 
-![hello world source code](helloworld.draw.png)
+![hello world source code](helloworld.drawio.png)
 
 2 Parts to make Hello World.
 
