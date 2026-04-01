@@ -56,6 +56,6 @@ In Windows:
 - [hello world from first principles](https://github.com/guitarvydas/pbp_helloworld) <-- the same as this repo that you are currently looking at
 - [hello world using Python](https://github.com/guitarvydas/pbp_helloworld_py)
 - [hello world using node.js](https://github.com/guitarvydas/pbp_helloworld_nodejs)
-- [hello world using Common Lisp](https://github.com/guitarvydas/pbp_helloworld_lisp)
 - [LLM as a PBP Part (5 Whys project)](https://github.com/guitarvydas/pbp-llm)
-- the [PBP kernel](https://github.com/guitarvydas/pbp-dev) itself (advanced used of the PBP technique) 
+- the [PBP kernel](https://github.com/guitarvydas/pbp-dev) itself (advanced use of the PBP technique) 
+- [mevent flow basics](https://www.youtube.com/watch?v=yPg4wVRQfYE&list=PLHh2_dCKBPjbBN2R8xwBiS4nHlo5iQjqS&index=2)
