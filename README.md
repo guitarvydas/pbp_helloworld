@@ -2,6 +2,8 @@
 
 This looks very simple, but contains concurrency and parallelism and a way to reason about mevent (message-event) ordering.
 
+![hello world source code](helloworld.draw.png)
+
 2 Parts to make Hello World.
 
 A 3rd Part to guarantee ordering of mevents.
