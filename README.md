@@ -23,6 +23,7 @@ If you'd like to build a PBP project from scratch, I recommend using the pbp-kit
 - https://www.drawio.com Draw.io diagram editor
 
 ## Video
+This video shows how to build this version of hello world
 https://www.youtube.com/watch?v=EFTzFA82YRc&list=PLHh2_dCKBPjbBN2R8xwBiS4nHlo5iQjqS&index=1
 
 ## Steps
@@ -47,3 +48,9 @@ In Windows:
 `set PYTHONUTF8=1`
 
 ![API](./api.md)
+
+# See Also
+- hello world using Python
+- hello world using node.js
+- hello world using Common Lisp
+- LLM 5 Whys project
